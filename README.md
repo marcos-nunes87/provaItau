@@ -86,6 +86,6 @@ A arquitetura proposta para esta aplicação segue uma abordagem moderna e escal
 
 Essa arquitetura proporciona uma base sólida para uma aplicação altamente disponível, escalável e resiliente, permitindo que ela cresça conforme necessário e mantenha um alto nível de desempenho e confiabilidade.
 
-Nota: Infelizmente, neste momento não foram incluídos o relatório Jacoco e o circuit breaker para a chamada da API do Banco Central.
+Nota: Infelizmente, neste momento não foram incluídos o relatório Jacoco, um circuit breaker para a chamada da API do Banco Central ou um producer RabbitMQ para tentativa de retry para chamada do API do Banco Central.
 
 Marcos Bezerra Nunes
